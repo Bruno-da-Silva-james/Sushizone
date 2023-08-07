@@ -72,30 +72,7 @@ main > .fundo{
     color: rgb(255, 255, 255);
     font-size: 200px;
 }
-@media only screen and (max-width: 100vw){
-    .navm{
-        display: none;
-    }
-}
-@media only screen and (max-width: 814px){
-    #nome{
-        font-size: 100px;
-    }
-    .nav{
-        display: none;
-    }
-    .navm{
-        display: block;
-    }
-}
- @media only screen and (max-width: 414px) {
-    .navm{
-        display: block;
-    }
-    #nome{
-       font-size: 50px;
-    }
-}
+
 .sobren{
     background-color: salmon;
     margin: auto;
@@ -103,5 +80,8 @@ main > .fundo{
     min-width: 300px;
     text-align: center;
 }
-.sobren > article{   
+.form{
+    display: flex;
+    justify-content: center;
+    margin-right: 14em;
 }
